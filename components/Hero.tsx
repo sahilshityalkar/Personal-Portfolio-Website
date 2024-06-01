@@ -29,7 +29,7 @@ const Hero = () => {
             words="Merging Creativity with Cutting-Edge New Technologies"
           />
           <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl">
-            Hi, I'm Sahil, a Software Engineer based in India.
+            Hi, I&apos;m Sahil, a Software Engineer based in India.
           </p>
           <a href="/sahil_shityalkar_resume.pdf" download>
             <MagicButton title="Get My Resume" icon={<FaLocationArrow />} position="right" />
