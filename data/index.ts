@@ -72,11 +72,11 @@ export const navItems = [
   export const projects = [
     {
       id: 1,
-      title: "3D Solar System Planets to Explore",
-      des: "Explore the wonders of our solar system with this captivating 3D simulation of the planets using Three.js.",
-      img: "/p1.svg",
-      iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
-      link: "https://github.com/adrianhajdin?tab=repositories",
+      title: "Personal Finance Tracker",
+      des: "Manage your finances effectively with this intuitive personal finance tracker built using the MERN (MongoDB, Express.js, React.js, Node.js) stack. Includes authentication powered by Passport.js and state management with Redux.",
+      img: "/p1.png",
+      iconLists: ["/re.svg", "/tail.svg","/md.svg","/ex.webp","rd.svg"],
+      link: "https://financetrackersahil.netlify.app/login",
     },
     {
       id: 2,
