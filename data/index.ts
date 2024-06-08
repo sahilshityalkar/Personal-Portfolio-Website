@@ -76,7 +76,7 @@ export const navItems = [
       des: "Manage your finances effectively with this intuitive personal finance tracker built using the MERN (MongoDB, Express.js, React.js, Node.js) stack. Includes authentication powered by Passport.js and state management with Redux.",
       img: "/p1.png",
       iconLists: ["/re.svg", "/tail.svg","/md.svg","/ex.webp","rd.svg"],
-      link: "https://financetrackersahil.netlify.app/login",
+      link: "https://financetrackersahil.netlify.app/",
     },
     {
       id: 2,
