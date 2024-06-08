@@ -84,7 +84,7 @@ export const navItems = [
       des: "Built with Next.js, Tailwind CSS & Aceterity UI for a streamlined development experience and a polished user interface. Sentry ensures seamless error tracking for continuous improvement.",
       img: "/ps.png",
       iconLists: ["/next.svg", "/tail.svg", "/ts.svg","ac.png","se.jpg"],
-      link: "https://github.com/adrianhajdin/zoom-clone",
+      link: "https://www.sahilshityalkar.tech/",
     },
     {
       id: 3,
@@ -92,7 +92,7 @@ export const navItems = [
       des: "A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.",
       img: "/ad.png",
       iconLists: ["/fb.png","/cg.jpg","/fm.png"],
-      link: "https://github.com/adrianhajdin/ai_saas_app",
+      link: "https://sahilshityalkar.github.io/Admin-Dashboard/",
     },
   ];
   
