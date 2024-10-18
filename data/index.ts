@@ -88,11 +88,11 @@ export const navItems = [
     },
     {
       id: 3,
-      title: "Figma To Real World Website",
-      des: "A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.",
+      title: "Weather-App",
+      des: "A modern weather app featuring real-time updates, AI-enhanced forecasts, and a user-friendly interface, built with the latest technology for reliable and accurate weather information.",
       img: "/ad.png",
       iconLists: ["/fb.png","/cg.jpg","/fm.png"],
-      link: "https://sahilshityalkar.github.io/Admin-Dashboard/",
+      link: "https://weather-app-new-woad.vercel.app/",
     },
   ];
   
