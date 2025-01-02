@@ -211,69 +211,111 @@ export const navItems = [
 
   export const blogs = [
     {
-      title: "Our first project with React",
-      excerpt: "Static websites are now used to bootstrap lots of websites and are becoming the basis for a variety of tools that even influence both web designers and developers.",
-      publishDate: "2023-12-20",
-      url: "https://dev.to/yourusername/article-1"
+      title: "#18 🚫 Don’t Use Next.js as Your Main Server! ✅ Here’s Why I Switched to a Custom Server! 🤯",
+      excerpt: "In the ever-evolving world of web development, building scalable, efficient, and maintainable applications is critical. While Next.js is a powerful framework for creating seamless full-stack applications, relying solely on its built-in server for complex workflows can sometimes pose challenges.",
+      publishDate: "2025-01-1",
+      url: "https://dev.to/sahilshityalkar/dont-use-nextjs-as-your-main-server-heres-why-i-switched-to-a-custom-server-264l"
     },
     {
-      title: "Understanding Modern Web Development",
-      excerpt: "Dive deep into modern web development practices and understand how they can improve your development workflow.",
-      publishDate: "2023-12-15",
-      url: "https://dev.to/yourusername/article-2"
+      title: "#17 Parallel or Sequential? Optimizing Data Fetching in Next.js 15 🤔💡",
+      excerpt: "Efficient data fetching is the backbone of high-performance web applications. With the release of Next.js 15, developers are equipped with advanced features like parallel and sequential data fetching, transforming the way we handle application data.",
+      publishDate: "2024-12-31",
+      url: "https://dev.to/sahilshityalkar/17-parallel-or-sequential-optimizing-data-fetching-in-nextjs-15-35c6"
     },
     {
-      title: "Understanding Modern Web Development",
-      excerpt: "Dive deep into modern web development practices and understand how they can improve your development workflow.",
-      publishDate: "2023-12-15",
-      url: "https://dev.to/yourusername/article-2"
+      title: "#16 Next.js Pitfalls Developers Must Avoid😧👇",
+      excerpt: "Navigating the intricacies of Next.js development requires more than just understanding the basics. Even seasoned developers can fall into traps that hinder performance, scalability, and maintainability.",
+      publishDate: "2024-12-30",
+      url: "https://dev.to/sahilshityalkar/16-nextjs-pitfalls-developers-must-avoid-12c2"
     },
     {
-      title: "Understanding Modern Web Development",
-      excerpt: "Dive deep into modern web development practices and understand how they can improve your development workflow.",
-      publishDate: "2023-12-15",
-      url: "https://dev.to/yourusername/article-2"
+      title: "#15 Enhancing User Experience with Server Actions in Next.js 15🚀✨",
+      excerpt: "Next.js 15 has introduced several groundbreaking features, one of which is Server Actions. This powerful feature is designed to bridge the gap between server-side and client-side interactions, enabling developers to build faster,",
+      publishDate: "2024-12-29",
+      url: "https://dev.to/sahilshityalkar/15-enhancing-user-experience-with-server-actions-in-nextjs-15-5dpn"
     },
     {
-      title: "Understanding Modern Web Development",
-      excerpt: "Dive deep into modern web development practices and understand how they can improve your development workflow.",
-      publishDate: "2023-12-15",
-      url: "https://dev.to/yourusername/article-2"
+      title: "#14 Next.js 15: Unleashing the Potential of PPR⚡️",
+      excerpt: "Partial Pre-rendering (PPR) is one of the standout features introduced in Next.js 15. This update brings significant enhancements to how pages are pre-rendered, giving developers more control over performance and user experience.",
+      publishDate: "2024-12-28",
+      url: "https://dev.to/sahilshityalkar/14-nextjs-15-unleashing-the-potential-of-ppr-25ec"
     },
     {
-      title: "Understanding Modern Web Development",
-      excerpt: "Dive deep into modern web development practices and understand how they can improve your development workflow.",
-      publishDate: "2023-12-15",
-      url: "https://dev.to/yourusername/article-2"
+      title: "#13 Incremental Static Regeneration (ISR) in Next.js 15: A Developer’s Guide",
+      excerpt: "magine you’re building an e-commerce platform with thousands of products. You want the lightning-fast load times of Static Site Generation (SSG) for better SEO and user experience, but your product details and inventory frequently change.",
+      publishDate: "2024-12-27",
+      url: "https://dev.to/sahilshityalkar/13-incremental-static-regeneration-isr-in-nextjs-15-a-developers-guide-1c3o"
     },
     {
-      title: "Understanding Modern Web Development",
-      excerpt: "Dive deep into modern web development practices and understand how they can improve your development workflow.",
-      publishDate: "2023-12-15",
-      url: "https://dev.to/yourusername/article-2"
+      title: "#12 Static Site Generation (SSG) in Next.js 15: A Developer’s Perspective👨‍💻🔍",
+      excerpt: "If you’ve ever built a website with content that doesn’t change often—like a blog, product catalog, or portfolio—you’ve probably used or considered Static Site Generation (SSG). It’s fast, efficient, and great for SEO.",
+      publishDate: "2024-12-26",
+      url: "https://dev.to/sahilshityalkar/static-site-generation-ssg-in-nextjs-15-a-developers-perspective-3jlf"
     },
     {
-      title: "Understanding Modern Web Development",
-      excerpt: "Dive deep into modern web development practices and understand how they can improve your development workflow.",
-      publishDate: "2023-12-15",
-      url: "https://dev.to/yourusername/article-2"
+      title: "#11 Next.js 15: Revolutionizing Server-Side Rendering (SSR) for Modern Applications😯🤓",
+      excerpt: "Next.js 15 brings game-changing updates to Server-Side Rendering (SSR), focusing on improved performance, developer experience, and compatibility with the latest technologies. ",
+      publishDate: "2024-12-21",
+      url: "https://dev.to/sahilshityalkar/11-nextjs-15-revolutionizing-server-side-rendering-ssr-for-modern-applications-1inc"
     },
     {
-      title: "Understanding Modern Web Development",
-      excerpt: "Dive deep into modern web development practices and understand how they can improve your development workflow.",
-      publishDate: "2023-12-15",
-      url: "https://dev.to/yourusername/article-2"
+      title: "#10 Next.js 15 Serverless Route Handlers: A New Era for Full-Stack Development🧐😎",
+      excerpt: "Next.js 15 brings exciting updates that revolutionize how developers build and deploy serverless applications. One standout feature is the new Serverless Route Handlers, which elevate Next.js....",
+      publishDate: "2024-12-20",
+      url: "https://dev.to/sahilshityalkar/10-nextjs-15-serverless-route-handlers-a-new-era-for-full-stack-development-57dg"
     },
     {
-      title: "Understanding Modern Web Development",
-      excerpt: "Dive deep into modern web development practices and understand how they can improve your development workflow.",
-      publishDate: "2023-12-15",
-      url: "https://dev.to/yourusername/article-2"
+      title: "#9 Is React 19 Stable or Is the Next Big Update Coming Soon?🤔",
+      excerpt: "When React 19 was officially released in March 2023, it generated a buzz among developers worldwide. While not a groundbreaking release like some of its predecessors, React 19 introduced...",
+      publishDate: "2024-12-11",
+      url: "https://dev.to/sahilshityalkar/9-is-react-19-stable-or-is-the-next-big-update-coming-soon-3da4"
     },
     {
-      title: "Understanding Modern Web Development",
-      excerpt: "Dive deep into modern web development practices and understand how they can improve your development workflow.",
-      publishDate: "2023-12-15",
-      url: "https://dev.to/yourusername/article-2"
+      title: "#8 Let’s See If You Know the Difference: Entities 🆚 Tables in Databases",
+      excerpt: "Ever wondered how your favorite apps manage to organize and retrieve information so seamlessly? The answer lies in two foundational concepts: Entities and Tables. Get these right,...",
+      publishDate: "2024-12-6",
+      url: "https://dev.to/sahilshityalkar/8-lets-see-if-you-know-the-difference-entities-tables-in-databases-3d6o"
+    },
+    {
+      title: "#7 Crafting a Cohesive UI Color Palette: A Step-by-Step Guide😬👀",
+      excerpt: "Choosing the right colors for your UI is crucial. It sets the tone, influences user experience, and can even impact brand perception. But with so many color options, where do you even begin?",
+      publishDate: "2025-05-31",
+      url: "https://dev.to/sahilshityalkar/crafting-a-cohesive-ui-color-palette-a-step-by-step-guide-48bp"
+    },
+    {
+      title: "#6 Conquer Complex Routing in Next.js 14: Mastering Group Routes for a Smoother Dev Experience",
+      excerpt: "Hey fellow Next.js developers! Ever feel like your application's routing system is turning into a tangled mess? As your project grows, managing routes can become a real headache.",
+      publishDate: "2024-05-07",
+      url: "https://dev.to/sahilshityalkar/conquer-complex-routing-in-nextjs-14-mastering-group-routes-for-a-smoother-dev-experience-3eg2"
+    },
+    {
+      title: "#5 Streamlined & Speedy: How WebSockets Elevate Your Web Applications (and SEO)",
+      excerpt: "Imagine a world where web applications update instantly, like watching live sports or collaborating on documents in real-time. WebSockets are the secret sauce behind this magic, enabling a persistent, two-way communication channel...",
+      publishDate: "2024-04-29",
+      url: "https://dev.to/sahilshityalkar/streamlined-speedy-how-websockets-elevate-your-web-applications-and-seo-7pj"
+    },
+    {
+      title: "#4 🚀Level Up Your React Apps: Mastering Client-Side Routing with React Router DOM🥪🙂",
+      excerpt: "Have you ever navigated a complex React application and marveled at its seamless flow? That's the power of client-side routing in action! In this post, we'll delve into React Router DOM,...",
+      publishDate: "2024-04-25",
+      url: "https://dev.to/sahilshityalkar/level-up-your-react-apps-mastering-client-side-routing-with-react-router-dom-nkj"
+    },
+    {
+      title: "#3 The Secret Language of Design: How Subtle Cues Shape User Behavior",
+      excerpt: "Have you ever walked into a store and felt an irresistible urge to browse? Or scrolled through a website and found yourself drawn to a specific product? It might not be magic – it's the power of design psychology.",
+      publishDate: "2024-04-24",
+      url: "https://dev.to/sahilshityalkar/the-secret-language-of-design-how-subtle-cues-shape-user-behavior-11j4"
+    },
+    {
+      title: "#2 From Chaos to Clarity: Mastering React Folder Structure as You Grow",
+      excerpt: "s a React developer, your project structure is like your apartment. When you're starting out (junior level), it might be a single room with everything thrown together. But as you gain experience (senior level),....",
+      publishDate: "2024-04-21",
+      url: "https://dev.to/sahilshityalkar/from-chaos-to-clarity-mastering-react-folder-structure-as-you-grow-2c4j"
+    },
+    {
+      title: "#1 Master the Art of Project Organization: Structure Your Programming Projects for Efficiency",
+      excerpt: "In the fast-paced world of software development, effective project organization is the bedrock of success. Here, we distill key insights from a recent YouTube video to help you streamline your programming projects and optimize efficiency.",
+      publishDate: "2024-04-17",
+      url: "https://dev.to/sahilshityalkar/master-the-art-of-project-organization-structure-your-programming-projects-for-efficiency-2eie"
     },
   ]
