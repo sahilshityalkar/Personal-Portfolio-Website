@@ -3,6 +3,7 @@ export const navItems = [
     { name: "About", link: "#about" },
     { name: "Projects", link: "#projects" },
     { name: "Contact", link: "#contact" },
+    { name: "Blog", link: "#blog" },
   ];
   
   export const gridItems = [
@@ -207,3 +208,72 @@ export const navItems = [
       img: "/link.svg",
     },
   ];
+
+  export const blogs = [
+    {
+      title: "Our first project with React",
+      excerpt: "Static websites are now used to bootstrap lots of websites and are becoming the basis for a variety of tools that even influence both web designers and developers.",
+      publishDate: "2023-12-20",
+      url: "https://dev.to/yourusername/article-1"
+    },
+    {
+      title: "Understanding Modern Web Development",
+      excerpt: "Dive deep into modern web development practices and understand how they can improve your development workflow.",
+      publishDate: "2023-12-15",
+      url: "https://dev.to/yourusername/article-2"
+    },
+    {
+      title: "Understanding Modern Web Development",
+      excerpt: "Dive deep into modern web development practices and understand how they can improve your development workflow.",
+      publishDate: "2023-12-15",
+      url: "https://dev.to/yourusername/article-2"
+    },
+    {
+      title: "Understanding Modern Web Development",
+      excerpt: "Dive deep into modern web development practices and understand how they can improve your development workflow.",
+      publishDate: "2023-12-15",
+      url: "https://dev.to/yourusername/article-2"
+    },
+    {
+      title: "Understanding Modern Web Development",
+      excerpt: "Dive deep into modern web development practices and understand how they can improve your development workflow.",
+      publishDate: "2023-12-15",
+      url: "https://dev.to/yourusername/article-2"
+    },
+    {
+      title: "Understanding Modern Web Development",
+      excerpt: "Dive deep into modern web development practices and understand how they can improve your development workflow.",
+      publishDate: "2023-12-15",
+      url: "https://dev.to/yourusername/article-2"
+    },
+    {
+      title: "Understanding Modern Web Development",
+      excerpt: "Dive deep into modern web development practices and understand how they can improve your development workflow.",
+      publishDate: "2023-12-15",
+      url: "https://dev.to/yourusername/article-2"
+    },
+    {
+      title: "Understanding Modern Web Development",
+      excerpt: "Dive deep into modern web development practices and understand how they can improve your development workflow.",
+      publishDate: "2023-12-15",
+      url: "https://dev.to/yourusername/article-2"
+    },
+    {
+      title: "Understanding Modern Web Development",
+      excerpt: "Dive deep into modern web development practices and understand how they can improve your development workflow.",
+      publishDate: "2023-12-15",
+      url: "https://dev.to/yourusername/article-2"
+    },
+    {
+      title: "Understanding Modern Web Development",
+      excerpt: "Dive deep into modern web development practices and understand how they can improve your development workflow.",
+      publishDate: "2023-12-15",
+      url: "https://dev.to/yourusername/article-2"
+    },
+    {
+      title: "Understanding Modern Web Development",
+      excerpt: "Dive deep into modern web development practices and understand how they can improve your development workflow.",
+      publishDate: "2023-12-15",
+      url: "https://dev.to/yourusername/article-2"
+    },
+  ]
