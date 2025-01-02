@@ -4,118 +4,7 @@ import { motion } from 'framer-motion'
 import { ArrowRight } from 'lucide-react'
 import Link from 'next/link'
 import { useEffect, useRef, useState } from 'react'
-
-interface BlogPost {
-  title: string
-  excerpt: string
-  publishDate: string
-  url: string
-}
-
-const SAMPLE_BLOGS: BlogPost[] = [
-  {
-    title: "Our first project with React",
-    excerpt: "Static websites are now used to bootstrap lots of websites and are becoming the basis for a variety of tools that even influence both web designers and developers.",
-    publishDate: "2023-12-20",
-    url: "https://dev.to/yourusername/article-1"
-  },
-  {
-    title: "Understanding Modern Web Development",
-    excerpt: "Dive deep into modern web development practices and understand how they can improve your development workflow.",
-    publishDate: "2023-12-15",
-    url: "https://dev.to/yourusername/article-2"
-  },
-  {
-    title: "Understanding Modern Web Development",
-    excerpt: "Dive deep into modern web development practices and understand how they can improve your development workflow.",
-    publishDate: "2023-12-15",
-    url: "https://dev.to/yourusername/article-2"
-  }
-  ,
-  {
-    title: "Understanding Modern Web Development",
-    excerpt: "Dive deep into modern web development practices and understand how they can improve your development workflow.",
-    publishDate: "2023-12-15",
-    url: "https://dev.to/yourusername/article-2"
-  }
-  ,
-  {
-    title: "Understanding Modern Web Development",
-    excerpt: "Dive deep into modern web development practices and understand how they can improve your development workflow.",
-    publishDate: "2023-12-15",
-    url: "https://dev.to/yourusername/article-2"
-  }
-  ,
-  {
-    title: "Understanding Modern Web Development",
-    excerpt: "Dive deep into modern web development practices and understand how they can improve your development workflow.",
-    publishDate: "2023-12-15",
-    url: "https://dev.to/yourusername/article-2"
-  }
-  ,
-  {
-    title: "Understanding Modern Web Development",
-    excerpt: "Dive deep into modern web development practices and understand how they can improve your development workflow.",
-    publishDate: "2023-12-15",
-    url: "https://dev.to/yourusername/article-2"
-  }
-  ,
-  {
-    title: "Understanding Modern Web Development",
-    excerpt: "Dive deep into modern web development practices and understand how they can improve your development workflow.",
-    publishDate: "2023-12-15",
-    url: "https://dev.to/yourusername/article-2"
-  }
-  ,
-  {
-    title: "Understanding Modern Web Development",
-    excerpt: "Dive deep into modern web development practices and understand how they can improve your development workflow.",
-    publishDate: "2023-12-15",
-    url: "https://dev.to/yourusername/article-2"
-  }
-  ,
-  {
-    title: "Understanding Modern Web Development",
-    excerpt: "Dive deep into modern web development practices and understand how they can improve your development workflow.",
-    publishDate: "2023-12-15",
-    url: "https://dev.to/yourusername/article-2"
-  }
-  ,
-  {
-    title: "Understanding Modern Web Development",
-    excerpt: "Dive deep into modern web development practices and understand how they can improve your development workflow.",
-    publishDate: "2023-12-15",
-    url: "https://dev.to/yourusername/article-2"
-  }
-  ,
-  {
-    title: "Understanding Modern Web Development",
-    excerpt: "Dive deep into modern web development practices and understand how they can improve your development workflow.",
-    publishDate: "2023-12-15",
-    url: "https://dev.to/yourusername/article-2"
-  }
-  ,
-  {
-    title: "Understanding Modern Web Development",
-    excerpt: "Dive deep into modern web development practices and understand how they can improve your development workflow.",
-    publishDate: "2023-12-15",
-    url: "https://dev.to/yourusername/article-2"
-  }
-  ,
-  {
-    title: "Understanding Modern Web Development",
-    excerpt: "Dive deep into modern web development practices and understand how they can improve your development workflow.",
-    publishDate: "2023-12-15",
-    url: "https://dev.to/yourusername/article-2"
-  }
-  ,
-  {
-    title: "Understanding Modern Web Development",
-    excerpt: "Dive deep into modern web development practices and understand how they can improve your development workflow.",
-    publishDate: "2023-12-15",
-    url: "https://dev.to/yourusername/article-2"
-  }
-]
+import { blogs } from '../data'  // Importing the blogs from data/index.ts
 
 export default function BlogList() {
   const [mousePosition, setMousePosition] = useState({ x: 0, y: 0 })
@@ -137,17 +26,15 @@ export default function BlogList() {
   }, [])
 
   return (
-    <motion.div  id='blog'
+    <motion.div  
       ref={containerRef}
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
       transition={{ duration: 0.5 }}
       className="relative w-full min-h-screen bg-black overflow-hidden"
       style={{
-        backgroundImage: `
-          linear-gradient(to bottom right, rgba(79,70,229,0.05), rgba(147,51,234,0.05)),
-          url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%239C92AC' fill-opacity='0.05'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E")
-        `,
+        backgroundImage: `linear-gradient(to bottom right, rgba(79,70,229,0.05), rgba(147,51,234,0.05)),
+        url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%239C92AC' fill-opacity='0.05'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E")`,
         backgroundSize: '100px 100px, auto',
         backgroundPosition: '0 0, 0 0',
         backgroundRepeat: 'repeat, repeat',
@@ -173,9 +60,9 @@ export default function BlogList() {
         animate="show"
         className="relative z-10 max-w-3xl mx-auto px-4 py-16 space-y-6"
       >
-        {SAMPLE_BLOGS.map((blog, index) => (
+        {blogs.map((blog, index) => (
           <motion.article
-            key={blog.title}
+            key={index}
             variants={{
               hidden: { opacity: 0, y: 20 },
               show: { opacity: 1, y: 0 }
@@ -243,4 +130,3 @@ export default function BlogList() {
     </motion.div>
   )
 }
-

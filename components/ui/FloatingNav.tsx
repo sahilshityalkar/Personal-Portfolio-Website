@@ -39,6 +39,18 @@ export const FloatingNav = ({
     }
   });
 
+  const getHref = (navItem: { name: string; link: string }) => {
+    // If it's the blog link, use the /blog route
+    if (navItem.name === "Blog") {
+      return "/blog";
+    }
+    // For hash links, always return from root
+    if (navItem.link.startsWith("#")) {
+      return `/${navItem.link}`;
+    }
+    return navItem.link;
+  };
+
   return (
     <AnimatePresence mode="wait">
       <motion.div
@@ -67,13 +79,13 @@ export const FloatingNav = ({
         {navItems.map((navItem: any, idx: number) => (
           <Link
             key={`link=${idx}`}
-            href={navItem.name === "Blog" ? "/blog" : navItem.link}
+            href={getHref(navItem)}
             className={cn(
-              "relative dark:text-neutral-50 items-center  flex space-x-1 text-neutral-600 dark:hover:text-neutral-300 hover:text-neutral-500"
+              "relative dark:text-neutral-50 items-center flex space-x-1 text-neutral-600 dark:hover:text-neutral-300 hover:text-neutral-500"
             )}
           >
             <span className="block sm:hidden">{navItem.icon}</span>
-            <span className=" text-sm !cursor-pointer">{navItem.name}</span>
+            <span className="text-sm !cursor-pointer">{navItem.name}</span>
           </Link>
         ))}
       </motion.div>
