@@ -2,7 +2,7 @@ import React from 'react';
 import { Spotlight } from './ui/Spotlight';
 import { TextGenerateEffect } from './ui/TextGenerateEffect';
 import MagicButton from './ui/MagicButton';
-import { FaLocationArrow, FaLinkedinIn, FaGithub } from 'react-icons/fa';
+import { FaLocationArrow, FaLinkedinIn, FaGithub, FaDev, FaRetweet, FaXing, FaTwitter } from 'react-icons/fa';
 
 const Hero = () => {
   return (
@@ -47,7 +47,21 @@ const Hero = () => {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <FaLinkedinIn className="text-xl hover:text-blue-500" />
+              <FaLinkedinIn className="text-xl hover:text-blue-500 mr-4" />
+            </a>
+            <a
+              href="https://dev.to/sahilshityalkar"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <FaDev className="text-xl hover:text-blue-500 mr-4" />
+            </a>
+            <a
+              href="https://x.com/SK_sahil05"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <FaTwitter className="text-xl hover:text-blue-500" />
             </a>
           </div>
         </div>

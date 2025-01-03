@@ -95,6 +95,30 @@ export const navItems = [
       iconLists: ["/fb.png","/cg.jpg","/fm.png"],
       link: "https://weather-app-new-woad.vercel.app/",
     },
+    {
+      id: 4,
+      title: "CV-Maker-with-react",
+      des: "A CV builder featuring real-time customization,and a user-friendly interface.",
+      img: "/cvmaker.png",
+      iconLists: ["/fb.png","/cg.jpg","/fm.png"],
+      link: "https://sahilshityalkarcvmaker.netlify.app/",
+    },
+    {
+      id: 5,
+      title: "Foodtruck",
+      des: "food truck application featuring a fully responsive design, engaging animations, and a user-friendly interface.",
+      img: "/foodtruck.png",
+      iconLists: ["/fb.png","/cg.jpg","/fm.png"],
+      link: "https://sahilshityalkar-foodtruck.netlify.app/",
+    },
+    {
+      id: 6,
+      title: "Figma-to-realworld",
+      des: "Try to make A stunning cupcake website meticulously recreated from a Figma design, featuring a pixel-perfect, responsive layout",
+      img: "/figmacopy.png",
+      iconLists: ["/fb.png","/cg.jpg","/fm.png"],
+      link: "https://sahilshityalkar-cupcake-figma.netlify.app/",
+    },
   ];
   
   export const testimonials = [
